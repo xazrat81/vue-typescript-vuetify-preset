@@ -17,7 +17,7 @@
             "useTheme": false,
             "useCustomProperties": false,
             "iconFont": "mdi",
-            "installFonts": false,
+            "installFonts": true,
             "useAlaCarte": true,
             "usePolyfill": true,
             "locale": "ru"
