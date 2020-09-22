@@ -3,8 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
+import { apiService } from 'pulsar-api-service'
 
 Vue.config.productionTip = false
+Vue.use(apiService, { withToken: false })
 
 new Vue({
   router,

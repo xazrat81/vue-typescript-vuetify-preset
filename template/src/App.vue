@@ -1,14 +1,14 @@
 <template>
     <v-app>
-        <v-app-bar>
-            <nav>
+        <v-app-bar app color="primary">
+            <nav class="header_nav_menu">
                 <router-link to="/" exact>Home</router-link>
                 <router-link to="/about">About</router-link>
             </nav>
         </v-app-bar>
-        <v-content>
+        <v-main>
             <router-view></router-view>
-        </v-content>
+        </v-main>
     </v-app>
 </template>
 
@@ -26,10 +26,10 @@ nav.header_nav_menu {
     width: 100%;
     & a {
         color: #fff;
-        padding: 20px 30px;
+        padding: 24px 30px;
         text-decoration: none;
         &:hover, &.router-link-exact-active {
-            background-color: #005eb6;
+            background-color: #0f6ab2;
         }
     }
   }

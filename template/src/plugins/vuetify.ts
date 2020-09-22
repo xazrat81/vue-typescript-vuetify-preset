@@ -6,6 +6,13 @@ import ru from 'vuetify/src/locale/ru'
 Vue.use(Vuetify);
 
 export default new Vuetify({
+  theme: {
+    themes: {
+      light: {
+        primary: '#2083d2'
+      }
+    }
+  },
   icons: {
     iconfont: 'mdi', // default - only for display purposes
   },
