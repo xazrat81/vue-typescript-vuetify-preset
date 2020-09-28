@@ -10,7 +10,7 @@
     "@mdi/font": "^5.3.45"
   },
   "dependencies": {
-    "pulsar-api-service": "git+https://bitbucket/scm/pas/pulsar-api-service.git"
+    "vue-plugin-pulsar-api-service": "^1.0.3"
   },
   "keywords": [
     "vue",
